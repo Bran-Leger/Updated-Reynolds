@@ -137,22 +137,86 @@ h1:before{
   justify-content: center;
 }
 
+.text-bubble h2{
+  font-size: 60px;
+}
+
 @media only screen and (max-width: 1024px){
   .bgIMG {
     object-fit: cover;
     object-position: 0;
     width: 1000px;
-    height: 1000px;
+    height: 1400px;
   }
 
   .text-bubble {
-    /* margin-left: 100%; */
+    width: 700px;
+    height: 700px;
+  }
+
+  .text-bubble h2{
+    font-size: 80px;
+  }
+
+  .text-bubble button{
+    padding: 18px 28px;
+    font-size: 30px;
+  }
+
+  .nav-link{
+    font-size: 50px;
+  }
+
+/* ////////////////////ABOUT MOBILE//////////////////// */
+  .about-titles{
+    font-size: 50px !important;
+  }
+
+  .about-paragraphs{
+    font-size: 30px !important;
+  }
+
+  .about-us button{
+    padding: 18px 28px;
+    font-size: 30px;
+  }
+/* //////////////////////ABOUT MOBILE//////////////////// */
+
+/* ////////////////////////SERVICES MOBILE/////////////// */
+  .servicesText h2{
+    font-size: 50px !important;
+  }
+
+  .servicesText p{
+    font-size: 30px !important;
+  }
+
+  .servicesText button{
+    padding: 18px 28px;
+    font-size: 30px;
+  }
+/* ///////////////////////SERVICES MOBILE//////////////// */
+
+/* /////////////////////CONTACT MOBILE//////////////////// */
+  .contactPage h2{
+    font-size: 50px !important;
+  }
+
+  .contactPage p{
+    font-size: 30px !important;
+  }
+
+  .contactPage button{
+    padding: 18px 28px;
+    font-size: 30px;
+  }
+
+  .form-control{
+    font-size: 30px !important;
   }
 }
 
-.text-bubble h2{
-  font-size: 60px;
-}
+
 
 .intro{
   width: 75%;
