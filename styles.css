@@ -1,0 +1,146 @@
+body{
+  padding-top: 120px;
+  background-color: grey;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.52em;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.75;
+  padding: 3% 2%;
+}
+
+.title{
+  font-family: 'Sacramento', sans-serif;
+  font-size: 3.5rem!important;
+}
+
+/* Navigation bar */
+.navbar-brand {
+  font-size: 2.5rem;
+  padding-left: 40px;
+}
+
+.navbar {
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-size: 1.5rem;
+}
+
+/* CAD Slideshow */
+.cadImage{
+  height: 500px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#CAD-slideshow{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: grey;
+}
+
+.white-section {
+  background-color: grey;
+}
+
+.carousel {
+  /* padding: 3% 2%; */
+}
+
+.carousel-control-prev{
+  /* width: 100px; */
+}
+
+.carousel-control-next{
+  /* width: 100px; */
+}
+
+.intro{
+  /* padding-top: 4.5%; */
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.intro-text{
+  padding-top: 50px;
+  color: #63aabc;
+}
+
+/* Services */
+.services{
+  background-color: silver;
+}
+
+.cadServices{
+  text-align: left;
+  padding: 1% 2% 1%;
+  color: white;
+}
+
+.panel-title{
+  font-size: 2.5rem;
+  color: white!important;
+  padding-bottom: 30px;
+}
+
+.panel-body{
+  font-size: 2rem;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+.active.list-group-item { background-color: #5bc0de; }
+
+
+.tab-pane{
+  font-size: 2rem;
+}
+
+.panel-group{
+  padding-left: 80px;
+}
+
+/* About section */
+.about{
+  color: #63aabc;
+  padding-bottom: 20px;
+}
+
+.aboutTitle{
+  text-align: left;
+  padding-top: 20px;
+
+}
+
+.aboutMe{
+  font-size: 2.3rem;
+  /* height: 300px; */
+  line-height: 2;
+  margin: 0 15% 0;
+}
+
+/* Quote */
+.quote{
+  background-color: #63aabc;
+  padding-bottom: 50px;
+}
+
+.quoteTitle{
+  text-align: left;
+  padding-top: 30px;
+}
+
+.quoteStuff{
+  font-size: 2.3rem;
+  /* height: 300px; */
+  line-height: 2;
+  margin: 0 15% 0;
+}

@@ -1,0 +1,344 @@
+body{
+  padding-top: 120px;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.52em;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.75;
+  padding: 3% 2%;
+}
+
+h1{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.52em;
+  font-weight: bold;
+  line-height: 1.75;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  padding: 10px 38px;
+}
+
+h1:before, h1:after{
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: '\a0';
+  background-color: black;
+}
+
+h1:before{
+  margin-left: -50%;
+  text-align: right;
+}
+
+.title{
+  font-family: 'Sacramento', sans-serif;
+  font-size: 3.5rem!important;
+}
+
+/*////////////////////////// Navigation bar ///////////////////////////////// */
+.navbar {
+  background: rgba(250, 250, 250, 0.9);
+}
+
+.nav-item{
+  display: inline-block;
+}
+
+.header-width{
+  width: 100%;
+  margin: auto;
+}
+
+.collapse{
+  margin-right: 5%;
+}
+
+.navbar-toggler{
+  background-color: rgba(226,242,254,1);
+  margin: auto;
+  padding: 15px;
+}
+
+.nav-link{
+  font-size: 20px;
+  color: #63aabc;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  padding-left: 40px;
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-size: 1.7rem;
+}
+
+/* ///////////////////////////////// Nav Bar /////////////////////////////////
+
+
+/* ////////////////////////////////// HOME PAGE ///////////////// */
+.bgIMG{
+  width: 2000px;
+  position: relative;
+  bottom: 150px;
+  margin-bottom: -150px;
+}
+
+.homePage{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.homePage p{
+  position: relative;
+}
+
+/* .bubble-container{
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100%;
+} */
+
+.text-bubble{
+  border-radius: 50%;
+  background-color: rgba(226,242,254,.9);
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 250px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-bubble h2{
+  font-size: 60px;
+}
+
+.intro{
+  width: 75%;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 0;
+
+}
+
+/*/////////////////////////////////////////// Services //////////////////*/
+.servicePage{
+  width: 65%;
+  text-align: left;
+  margin: auto;
+}
+
+.services{
+  background-color: silver;
+  padding: 70px 0 50px;
+}
+
+.solutionPic{
+  width: 100%;
+  padding-top: 15px;
+}
+.servicesText{
+  color: #63aabc;
+}
+.servicesText h2{
+  text-align: left;
+  padding: 0 0 10px;
+  font-size: 40px;
+  margin: 0;
+  color: #63aabc;
+}
+
+.serviceContainer{
+  padding-top: 20px;
+}
+
+.cadServices{
+  text-align: left;
+  padding: 1% 2% 3%;
+  color: white;
+
+}
+
+.panel-title{
+  font-size: 2.5rem;
+  color: white!important;
+  padding-bottom: 30px;
+}
+
+.panel-body{
+  font-size: 2rem;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+.active.list-group-item {
+  background-color: #5bc0de;
+}
+
+
+.tab-pane{
+  font-size: 2rem;
+}
+
+.panel-group{
+  padding-left: 80px;
+}
+
+/*//////////////////////////////// ABOUT SECTION /////////////////*/
+
+.aboutH1width{
+  width: 65%;
+  text-align: center;
+  margin: auto;
+}
+
+.about-us{
+  color: #63aabc;
+  /* padding-bottom: 20px;
+  padding-top: 40px; */
+  padding: 0;
+}
+
+.about-titles{
+  font-size: 30px;
+}
+
+.aboutPics{
+  border-radius: 50%;
+  align-items: center;
+  margin: auto;
+  width: 230px;
+  height: 230px;
+}
+
+#about-text{
+  width: 70%;
+  margin: auto;
+  font-size: 17px;
+}
+
+.about-boxes{
+  padding: 3% 1%;
+  text-align: center;
+}
+
+.about-paragraphs{
+  margin: auto;
+  width: 85%;
+
+}
+
+.aboutBtn{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+/*/////////////////////////////////END OF ABOUT SECTION////////////////// */
+
+/* ////////////////////////////////CONTACT SECTION////////////// */
+.contactPage{
+  width: 65%;
+  text-align: left;
+  align-items: left;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.contactPage h2{
+  text-align: left;
+  font-size: 30px;
+  padding-left: 0;
+}
+
+.contactPage p{
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.contact-form{
+  align-items: left;
+  width: 130%;
+}
+
+.quote{
+  background-color: #63aabc;
+  padding-bottom: 50px;
+}
+/*
+.quoteTitle{
+  text-align: left;
+  padding-top: 30px;
+}
+
+.quoteStuff{
+  font-size: 2.3rem;
+  /* height: 300px; */
+  /* line-height: 2;
+  margin: 0 15% 0;
+} */
+
+.quoteTitle{
+  font-size: 5rem;
+}
+
+.resume-section{
+  font-size: 2rem;
+}
+
+.contact{
+  /* font-size: 2rem; */
+  padding-bottom: 10px;
+  font-size: 2.5rem
+}
+
+.finalMessage{
+  margin: 0 10% 0;
+  line-height: 2;
+  padding-bottom: 30px;
+}
+
+.form-control{
+  font-size: 1.5rem;
+}
+
+.btn-submit{
+  font-size: 1.5rem;
+}
+
+.footer{
+  text-align: center;
+  align-items: center;
+  background-color: rgba(240,240,240,1);
+  padding: 1vw 0;
+}
+.fa-facebook{
+  color: #63aabc;
+  margin-bottom: 20px;
+}
+.footer-list{
+  margin: auto;
+}
