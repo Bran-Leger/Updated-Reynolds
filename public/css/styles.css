@@ -89,12 +89,17 @@ h1:before{
 
 
 /* ////////////////////////////////// HOME PAGE ///////////////// */
+
+
+
 .bgIMG{
   width: 2000px;
   position: relative;
   bottom: 150px;
   margin-bottom: -150px;
 }
+
+
 
 .homePage{
   align-items: center;
@@ -132,6 +137,19 @@ h1:before{
   justify-content: center;
 }
 
+@media only screen and (max-width: 1024px){
+  .bgIMG {
+    object-fit: cover;
+    object-position: 0;
+    width: 1000px;
+    height: 1000px;
+  }
+
+  .text-bubble {
+    /* margin-left: 100%; */
+  }
+}
+
 .text-bubble h2{
   font-size: 60px;
 }
@@ -162,6 +180,7 @@ h1:before{
 }
 .servicesText{
   color: #63aabc;
+  padding-bottom: 30px;
 }
 .servicesText h2{
   text-align: left;
